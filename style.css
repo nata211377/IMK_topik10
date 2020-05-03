@@ -1,0 +1,86 @@
+body{
+	background : #afc9c9;
+
+}
+#text_biodata{
+	color : #084596;
+	font-size: 30px;
+	font-family:cursive;
+}
+.menu:link{
+	color : gray;
+	font-size: 35px;
+	font-family: inherit;
+	background : #f6f786;
+	text-decoration: none;
+	padding: 2px
+}
+.menu:hover{
+	color : gray;
+	font-size: 50px;
+	font-family: fuchsia;
+	background : #db9d5e;
+}
+.insta{
+	color : blue;
+	font-size: 30px;
+	font-family: Lucida Console, Courier, monospace;;
+	text-decoration: none;
+	display:block;
+	clear: both;
+
+}
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 40%;
+    border: 1px solid #f2f5f7;
+		margin: 50px
+}
+
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1, th, td {
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.table1 tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.caption{
+	font-size: 40px;
+	font-family: monospace;
+	margin: 10px;
+	margin-top: 50px;
+
+}
+.kiri{
+	float:left;
+	display:block;
+	width:200px;
+	margin:5px
+}
+.teks1{
+	float:left
+}
+#formKomentar{
+    border: 5px solid #d1d1d1;
+    width:500px;
+    padding:10px;
+}
+input, textarea{
+     padding: 10px;
+     border:3px solid #e6e6e6;
+     border-radius: 5px;
+     margin-bottom: 15px;
+}
